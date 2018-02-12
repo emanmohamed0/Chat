@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_alignTop="@+id/user_image"
+        android:layout_marginStart="98dp"
+        android:text="Display_name"
+        android:layout_marginLeft="98dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/user_name"
+        android:layout_marginTop="45dp"
+        android:text="User_Default_Status"
+        android:layout_alignLeft="@+id/user_name" />
+
+    <ImageView
+        android:id="@+id/user_online"
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignTop="@+id/user_image"
+        android:layout_toEndOf="@+id/user_name"
+        android:layout_marginLeft="20dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/online"
+        android:layout_toLeftOf="@+id/user_status"
+        android:layout_toRightOf="@+id/user_name" />
+
+</RelativeLayout>

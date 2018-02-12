@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "406117143836",
+    "firebase_url": "https://meta-iterator-149219.firebaseio.com",
+    "project_id": "meta-iterator-149219",
+    "storage_bucket": "meta-iterator-149219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406117143836:android:e4d92bf3dc81a7af",
+        "android_client_info": {
+          "package_name": "com.app.emaneraky.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406117143836-m293hae2lfc93te3kfdf31c16o1o362g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.emaneraky.chat",
+            "certificate_hash": "6c961dfbdb26c3e672970ec57e71a461067a0804"
+          }
+        },
+        {
+          "client_id": "406117143836-53cgoq6s6hc3osii7krih7eaie6da0go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYTRsQmnb4a75I7fyA4QJa3xJXSnwmOtw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406117143836-53cgoq6s6hc3osii7krih7eaie6da0go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
